@@ -1,7 +1,7 @@
-import camera from "./assets/images/camera.png";
-import "./assets/styles/main.css";
+import camera from "../assets/images/camera.png";
+import "../assets/styles/main.css";
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header id="header">
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
