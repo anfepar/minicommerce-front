@@ -2444,12 +2444,9 @@ input[type="radio"]:focus + label:before {
   width: 100%;
 }
 
-
 .image.phone .inner {
   position: relative;
 }
-
-
 
 .image.phone {
   box-shadow: none;
@@ -3857,7 +3854,7 @@ table.alt tbody tr td {
 #header input,
 #header select,
 #header textarea {
-  color: #d1e5f9;
+  color: gray;
 }
 
 #header a {
@@ -3966,7 +3963,6 @@ table.alt tbody tr td {
 
 @media screen and (max-width: 980px) {
   #header {
-    height: auto;
     min-height: 0;
   }
 
@@ -4201,4 +4197,18 @@ body.is-preload #header .image img {
   #footer {
     padding: 3em 1.5em 1em 1.5em;
   }
+}
+
+.actions__input {
+  border-radius: 5px;
+  border: none;
+  margin: none;
+  width: 15rem;
+  height: 100%;
+  min-height: 3rem;
+  padding-left: 1rem;
+}
+
+.actions__input:hover {
+  outline: none;
 }
