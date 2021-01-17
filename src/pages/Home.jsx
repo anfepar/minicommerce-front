@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import game from "../assets/images/game.png";
 import "../assets/styles/main.css";

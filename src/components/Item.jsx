@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+import React from "react";
 const Item = ({ transaction }) => (
   <tr>
     <th>{transaction._id}</th>
