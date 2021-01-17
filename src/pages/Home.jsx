@@ -27,7 +27,7 @@ function Home() {
 
   return (
     <div>
-      <section id="header">
+      <section id="main">
         <div className="content">
           <h1>
             <a href="#">Old School Game</a>
