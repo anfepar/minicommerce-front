@@ -26,8 +26,8 @@ function Home() {
   };
 
   return (
-    <div className="App">
-      <header id="header">
+    <div>
+      <section id="header">
         <div className="content">
           <h1>
             <a href="#">Old School Game</a>
@@ -59,7 +59,7 @@ function Home() {
             <img src={game} alt="" />
           </div>
         </div>
-      </header>
+      </section>
     </div>
   );
 }
