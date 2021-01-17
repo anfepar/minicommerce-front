@@ -17,15 +17,16 @@ const Payment = () => {
         if (transaction.status) {
           setStatus(transaction.status);
         } else {
-          setError(transaction);
+          setError(true);
         }
       })
       .catch((err) => {
-        console.log(err);
+        setLoading(false);
+        setError(true);
       });
   }, [id, setStatus, setLoading, setError]);
   return (
-    <section id="header">
+    <section id="main">
       {loading ? (
         <h2>{"Loading ..."}</h2>
       ) : (
