@@ -14,6 +14,21 @@ export function fetchPost(url, data) {
   });
 }
 
+export function fetchAuthPost(url, data, token) {
+  return fetch(`${API_URL}${url}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Basic ${token}`,
+    },
+    body: JSON.stringify(data),
+  }).then((res) => {
+    return res.json().then((jsonRes) => {
+      return jsonRes.data;
+    });
+  });
+}
+
 export function fetchGet(url) {
   return fetch(`${API_URL}${url}`, {
     method: "GET",
