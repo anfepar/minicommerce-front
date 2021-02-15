@@ -2,7 +2,6 @@
 
 This repo is a React App 
 
-You could test it using the following link https://minicommerce-9fdd8.web.app/ and https://minicommerce-9fdd8.web.app/admin/transactions
 
 ## Getting started
 
